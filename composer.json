@@ -1,0 +1,19 @@
+{
+    "name": "neha0921/substrate-api-php",
+    "description": "Implement polka endpoint API by using PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neha0921\\SubstrateApiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Neha0921",
+            "email": "neha.reddy@nitorinfotech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
