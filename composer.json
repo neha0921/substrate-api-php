@@ -8,6 +8,13 @@
             "Neha0921\\SubstrateApiPhp\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neha0921\\SubstrateApiPhp\\PolkaServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Neha0921",
