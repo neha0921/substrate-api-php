@@ -11,7 +11,8 @@ trait System
     public function name()
     {
         $response = SubstrateBase::APIHandler('system_'.__FUNCTION__);
-        return response()->json($response);
+        $this->_name = $response['result'];
+        return response()->json($this->_name);
     }
 
      /* system_name endpoint API*/
@@ -19,7 +20,8 @@ trait System
      public function chain()
      {
          $response = SubstrateBase::APIHandler('system_'.__FUNCTION__);
-         return response()->json($response);
+         $this->_chain = $response['result'];
+         return response()->json($this->_chain);
      }
 
       /* system_name endpoint API*/
@@ -27,7 +29,8 @@ trait System
     public function health()
     {
         $response = SubstrateBase::APIHandler('system_'.__FUNCTION__);
-        return response()->json($response);
+        $this->_health = $response['result'];
+        return response()->json($this->_health);
     }
 
 }
