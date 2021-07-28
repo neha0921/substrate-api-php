@@ -1,6 +1,7 @@
 <?php
 
 namespace Neha0921\SubstrateApiPhp\Http\Controllers;
+use App\Http\Controllers\Controller;
 
 class SubstrateApiController extends BaseController
 {
